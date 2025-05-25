@@ -9,8 +9,8 @@ import tempfile
 import os
 from supabase import create_client, Client
 
-st.set_page_config(page_title="AI Shirt Tool 201-300", layout="wide")
-st.title("🛠️ AI Shirt Tools 1-100")
+st.set_page_config(page_title="AI Shirt Tool", layout="wide")
+st.title("🛠️ AI Shirt Tools 201-300")
 
 # Mode selection
 app_mode = st.sidebar.selectbox("Select Application", [
